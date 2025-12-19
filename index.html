@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="logo" href="#top">Your Name</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" data-reveal>
+      <p class="eyebrow">Frontend Developer · Designer · Problem Solver</p>
+      <h1>Crafting delightful digital experiences that bring ideas to life.</h1>
+      <p class="hero-copy">I am a multidisciplinary developer focused on building beautiful and performant products with delightful user experiences. I thrive on bridging the gap between design and engineering.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="assets/Your-Name-Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about section" id="about" data-reveal>
+      <div class="section-heading">
+        <span class="section-eyebrow">About</span>
+        <h2>Who I am</h2>
+      </div>
+      <div class="about-body">
+        <p>I am a frontend engineer with a passion for pixel-perfect interfaces, scalable architecture, and inclusive design. Over the past few years I have built products for startups, agencies, and personal ventures. Outside of coding you can find me sketching, reading sci-fi, or exploring new coffee shops.</p>
+        <p class="about-highlight">Currently focused on crafting performant web apps using React, TypeScript, and modern CSS tooling.</p>
+        <div class="about-stats">
+          <div>
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Years experience</span>
+          </div>
+          <div>
+            <span class="stat-number">25+</span>
+            <span class="stat-label">Projects shipped</span>
+          </div>
+          <div>
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Client satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills" data-reveal>
+      <div class="section-heading">
+        <span class="section-eyebrow">Skills</span>
+        <h2>Tech I work with</h2>
+      </div>
+      <div class="skills-grid">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>React</span>
+        <span>Next.js</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>GraphQL</span>
+        <span>REST APIs</span>
+        <span>Figma</span>
+        <span>Adobe XD</span>
+        <span>Git &amp; GitHub</span>
+        <span>Jest</span>
+        <span>Storybook</span>
+        <span>Tailwind CSS</span>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <span class="section-eyebrow">Projects</span>
+        <h2>Selected work</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" data-reveal>
+          <div class="project-content">
+            <h3>Atlas Dashboard</h3>
+            <p>Analytics dashboard for logistics teams with real-time tracking, predictive insights, and collaborative tasking built with React, Recharts, and Firebase.</p>
+          </div>
+          <div class="project-meta">
+            <span>React</span>
+            <span>Firebase</span>
+            <span>Recharts</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-text">Case Study</a>
+            <a href="#" class="btn-text">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-content">
+            <h3>Pocket Recipes</h3>
+            <p>Progressive web app that lets users organize recipes, generate shopping lists, and cook along with voice-guided steps. Offline first and fully responsive.</p>
+          </div>
+          <div class="project-meta">
+            <span>PWA</span>
+            <span>Next.js</span>
+            <span>IndexedDB</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-text">Case Study</a>
+            <a href="#" class="btn-text">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-content">
+            <h3>CareConnect</h3>
+            <p>Healthcare scheduling platform enabling clinics to manage appointments, telehealth sessions, and patient messaging securely.</p>
+          </div>
+          <div class="project-meta">
+            <span>TypeScript</span>
+            <span>GraphQL</span>
+            <span>AWS</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-text">Case Study</a>
+            <a href="#" class="btn-text">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="resume section" id="resume" data-reveal>
+      <div class="section-heading">
+        <span class="section-eyebrow">Resume</span>
+        <h2>Experience snapshot</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <div class="timeline-meta">
+            <span class="timeline-role">Senior Frontend Engineer</span>
+            <span class="timeline-company">BrightLabs · 2023 - Present</span>
+          </div>
+          <p>Leading the design system initiative, improving performance by 35% and rolling out accessibility guidelines across product teams.</p>
+        </article>
+        <article>
+          <div class="timeline-meta">
+            <span class="timeline-role">Frontend Engineer</span>
+            <span class="timeline-company">LaunchPad · 2021 - 2023</span>
+          </div>
+          <p>Shipped responsive marketing sites and interactive web apps for over a dozen clients, collaborating closely with UX and product stakeholders.</p>
+        </article>
+        <article>
+          <div class="timeline-meta">
+            <span class="timeline-role">UI Developer</span>
+            <span class="timeline-company">Freelance · 2019 - 2021</span>
+          </div>
+          <p>Partnered with startups and agencies to build landing pages, email campaigns, and MVP prototypes with fast iteration cycles.</p>
+        </article>
+      </div>
+      <a class="btn secondary" href="assets/Your-Name-Resume.pdf" target="_blank" rel="noreferrer">Open full resume</a>
+    </section>
+
+    <section class="contact section" id="contact" data-reveal>
+      <div class="section-heading">
+        <span class="section-eyebrow">Contact</span>
+        <h2>Let's build something</h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>If you are working on something exciting and need a versatile frontend engineer, I would love to hear about it. Drop a line and I will get back within 24 hours.</p>
+          <ul class="contact-list">
+            <li><span>Email:</span> <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></li>
+            <li><span>Location:</span> Remote · Open to relocation</li>
+            <li><span>Social:</span> <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/placeholder" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Crafted with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
